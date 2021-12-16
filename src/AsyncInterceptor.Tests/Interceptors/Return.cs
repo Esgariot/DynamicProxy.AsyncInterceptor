@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 using Castle.DynamicProxy;
 
-namespace stakx.DynamicProxy.Tests
+namespace Castle.DynamicProxy.Tests
 {
     public sealed class Return : AsyncInterceptor
     {

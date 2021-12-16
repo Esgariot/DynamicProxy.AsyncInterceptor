@@ -5,7 +5,7 @@ using System;
 
 using Xunit;
 
-namespace stakx.DynamicProxy.Tests
+namespace Castle.DynamicProxy.Tests
 {
     public class ClockTaskFactoryTests
     {

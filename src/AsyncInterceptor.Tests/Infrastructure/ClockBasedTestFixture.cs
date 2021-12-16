@@ -3,7 +3,7 @@
 
 using Castle.DynamicProxy;
 
-namespace stakx.DynamicProxy.Tests
+namespace Castle.DynamicProxy.Tests
 {
     public abstract class ClockBasedTextFixture
     {

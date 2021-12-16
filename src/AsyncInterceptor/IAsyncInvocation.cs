@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Reflection;
 using System.Threading.Tasks;
 
-namespace stakx.DynamicProxy
+namespace Castle.DynamicProxy
 {
     public interface IAsyncInvocation
     {

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 using Castle.DynamicProxy;
 
-namespace stakx.DynamicProxy
+namespace Castle.DynamicProxy
 {
     partial class AsyncInterceptor
     {

@@ -3,7 +3,7 @@
 
 using System.Threading.Tasks;
 
-namespace stakx.DynamicProxy.Tests
+namespace Castle.DynamicProxy.Tests
 {
     public interface IGetNumber
     {
