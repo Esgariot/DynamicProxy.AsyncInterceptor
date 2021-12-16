@@ -3,8 +3,8 @@
   <PropertyGroup>
     <OutputType>Library</OutputType>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <AssemblyName>stakx.DynamicProxy.AsyncInterceptor</AssemblyName>
-    <RootNamespace>stakx.DynamicProxy</RootNamespace>
+    <AssemblyName>Castle.DynamicProxy.AsyncInterceptor</AssemblyName>
+    <RootNamespace>Castle.DynamicProxy</RootNamespace>
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
 
