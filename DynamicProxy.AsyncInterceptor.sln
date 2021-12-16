@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncInterceptor", "src\AsyncInterceptor\AsyncInterceptor.csproj", "{0B5497C0-263A-4988-862C-FEA03FB00F11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncInterceptor.Tests", "src\AsyncInterceptor.Tests\AsyncInterceptor.Tests.csproj", "{679D714D-6151-43E5-9EA9-4317D181A61B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B5497C0-263A-4988-862C-FEA03FB00F11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B5497C0-263A-4988-862C-FEA03FB00F11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B5497C0-263A-4988-862C-FEA03FB00F11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B5497C0-263A-4988-862C-FEA03FB00F11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{679D714D-6151-43E5-9EA9-4317D181A61B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{679D714D-6151-43E5-9EA9-4317D181A61B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{679D714D-6151-43E5-9EA9-4317D181A61B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{679D714D-6151-43E5-9EA9-4317D181A61B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+EndGlobal
