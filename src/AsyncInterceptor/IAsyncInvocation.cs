@@ -11,6 +11,7 @@ namespace Castle.DynamicProxy
     {
         IReadOnlyList<object> Arguments { get; }
         MethodInfo Method { get; }
+        MethodInfo MethodInvocationTarget { get; }
         object Result { get; set; }
         ValueTask ProceedAsync();
     }

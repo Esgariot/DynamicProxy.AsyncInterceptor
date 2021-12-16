@@ -27,6 +27,8 @@ namespace Castle.DynamicProxy
 
             public MethodInfo Method => this.invocation.Method;
 
+            public MethodInfo MethodInvocationTarget => this.invocation.MethodInvocationTarget;
+
             public object Result { get; set; }
 
             public ValueTask ProceedAsync()
