@@ -17,7 +17,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AsyncInterceptor\AsyncInterceptor.csproj" />
+    <ProjectReference Include="../../src/AsyncInterceptor/AsyncInterceptor.csproj" />
   </ItemGroup>
-
 </Project>

@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncInterceptor", "src\AsyncInterceptor\AsyncInterceptor.csproj", "{0B5497C0-263A-4988-862C-FEA03FB00F11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncInterceptor.Tests", "src\AsyncInterceptor.Tests\AsyncInterceptor.Tests.csproj", "{679D714D-6151-43E5-9EA9-4317D181A61B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncInterceptor.Tests", "test\AsyncInterceptor.Tests\AsyncInterceptor.Tests.csproj", "{679D714D-6151-43E5-9EA9-4317D181A61B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
