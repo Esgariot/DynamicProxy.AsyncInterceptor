@@ -39,6 +39,6 @@ jobs:
     - name: Pack
       run: dotnet pack --configuration Release --output packed
     - name: Publish-GitHub
-      run: dotnet nuget push *.nupkg --skip-duplicate
+      run: dotnet nuget push --source ./packed/*.nupkg --skip-duplicate
       env:
         NUGET_AUTH_TOKEN: ${{ github.token }}
