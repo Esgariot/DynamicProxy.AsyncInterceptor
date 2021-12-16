@@ -15,7 +15,6 @@ jobs:
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 6.0.x
-        source-url: https://nuget.pkg.github.com/${{ github.repository_owner }}/index.json
       env:
         NUGET_AUTH_TOKEN: ${{ github.token }}
     - name: Restore dependencies
@@ -38,7 +37,5 @@ jobs:
         dotnet-version: 6.0.x
     - name: Pack
       run: dotnet pack --configuration Release --output packed
-    - name: Publish-GitHub
-      run: dotnet nuget push ./packed/*.nupkg --skip-duplicate
-      env:
-        NUGET_AUTH_TOKEN: ${{ github.token }}
+    - name: Publish to GitHub Packages
+      run: dotnet nuget push packed/*.nupkg --source https://nuget.pkg.github.com/<owner> --api-key ${{github.token}}
